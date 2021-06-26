@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/font/joystix monospace.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://scripts/Begining.gd" type="Script" id=2]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 500, 500, 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[node name="End" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 164, 65 )
+mesh = SubResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 2 )
+text = "You Have A MiSSION TO GO 
+TO MARS BUT WHEN YOU 
+REACH THE MARS 
+ATMOSPHERE YOU GET HIT
+BY SOMETHING YOU CRASHED
+Into MARS SURFACE
+
+PRESS ENTER TO CONTINUE"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

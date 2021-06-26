@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ufo_explode.wav-b90a95d46464f14f21b959bcfe19e368.sample"
+
+[deps]
+
+source_file="res://src/sound_effects/ufo_explode.wav"
+dest_files=[ "res://.import/ufo_explode.wav-b90a95d46464f14f21b959bcfe19e368.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

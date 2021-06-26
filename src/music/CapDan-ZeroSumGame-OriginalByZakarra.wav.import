@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/CapDan-ZeroSumGame-OriginalByZakarra.wav-1bd7b82e61354d65dbdbccf18686bc74.sample"
+
+[deps]
+
+source_file="res://src/music/CapDan-ZeroSumGame-OriginalByZakarra.wav"
+dest_files=[ "res://.import/CapDan-ZeroSumGame-OriginalByZakarra.wav-1bd7b82e61354d65dbdbccf18686bc74.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
